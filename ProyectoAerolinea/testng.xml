@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Aerolinea Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/User/Documents/JavaSelenium/ProyectoAerolinea">
+        <classes>
+            <class name="com.front.runners.RunnerAviancaTest">
+                <methods>
+                    <include name="subRunner"/>
+                </methods>
+            </class>
+            <class name="com.front.runners.RunnerTicketesBaratosTest">
+                <methods>
+                    <include name="subRunner"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
